@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.services .services_wrapper .left_services button:hover, .services .services_wrapper .left_services button, .about_us .about_us_wrapper .about_left button:hover, .about_us .about_us_wrapper .about_left button, header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services_wrapper .left_services button, .about_us .about_us_wrapper .about_left button {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #ff3f40;
+  transition: 0.5s;
+}
+
+.products .bottom_product ul li a, .products .top_product h2, .services .services_wrapper .right_services .item_wrapper .animation h3, .services .services_wrapper .right_services .item_wrapper .logo h3, .services .services_wrapper .right_services .item_wrapper .design h3, .services .services_wrapper .right_services .item_wrapper .management h3, .services .services_wrapper .left_services h2, .about_us .about_us_wrapper .about_left h1, header nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #f6f2f2;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #313030;
+  margin: 30px 0 110px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding: 40px 40px 30px;
+  transition: 0.6s;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+header nav ul li:hover {
+  background-color: #ff3f40;
+}
+
+.about_us {
+  padding-bottom: 110px;
+}
+.about_us .about_us_wrapper {
+  display: flex;
+}
+.about_us .about_us_wrapper .about_left {
+  font-family: "Open Sans", sans-serif;
+  padding-right: 100px;
+  width: 50%;
+}
+.about_us .about_us_wrapper .about_left h1 {
+  font-size: 60px;
+  padding-bottom: 25px;
+}
+.about_us .about_us_wrapper .about_left p {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.about_us .about_us_wrapper .about_left button {
+  background-color: #ff3f40;
+  color: white;
+  padding: 20px 70px;
+}
+.about_us .about_us_wrapper .about_left button:hover {
+  background-color: white;
+  color: #ff3f40;
+}
+.about_us .about_us_wrapper .about_right {
+  width: 50%;
+}
+.about_us .about_us_wrapper .about_right .video {
+  width: 100%;
+  height: 350px;
+}
+
+.services {
+  background-color: white;
+  padding: 110px 0 0;
+}
+.services .services_wrapper {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: grey solid 1px;
+  padding-bottom: 110px;
+}
+.services .services_wrapper .left_services {
+  width: 50%;
+  padding-right: 50px;
+}
+.services .services_wrapper .left_services h2 {
+  font-size: 45px;
+  padding-bottom: 25px;
+}
+.services .services_wrapper .left_services p {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.services .services_wrapper .left_services button {
+  background-color: white;
+  color: #ff3f40;
+  padding: 20px 70px;
+}
+.services .services_wrapper .left_services button:hover {
+  background-color: #ff3f40;
+  color: white;
+}
+.services .services_wrapper .right_services {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services .services_wrapper .right_services .item_wrapper {
+  width: 50%;
+}
+.services .services_wrapper .right_services .item_wrapper .management {
+  padding: 0 50px 0 0;
+}
+.services .services_wrapper .right_services .item_wrapper .management h3 {
+  font-size: 22px;
+  padding: 15px 0;
+}
+.services .services_wrapper .right_services .item_wrapper .management p {
+  font-size: 18px;
+}
+.services .services_wrapper .right_services .item_wrapper .design {
+  padding: 0 50px 0 0;
+}
+.services .services_wrapper .right_services .item_wrapper .design h3 {
+  font-size: 22px;
+  padding: 15px 0;
+}
+.services .services_wrapper .right_services .item_wrapper .design p {
+  font-size: 18px;
+}
+.services .services_wrapper .right_services .item_wrapper .logo {
+  padding: 50px 50px 0 0;
+}
+.services .services_wrapper .right_services .item_wrapper .logo h3 {
+  font-size: 22px;
+  padding: 15px 0;
+}
+.services .services_wrapper .right_services .item_wrapper .logo p {
+  font-size: 18px;
+}
+.services .services_wrapper .right_services .item_wrapper .animation {
+  padding: 50px 50px 0 0;
+}
+.services .services_wrapper .right_services .item_wrapper .animation h3 {
+  font-size: 22px;
+  padding: 15px 0;
+}
+.services .services_wrapper .right_services .item_wrapper .animation p {
+  font-size: 18px;
+}
+
+.products {
+  padding: 110px 0;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.products .top_product {
+  padding-bottom: 50px;
+}
+.products .top_product h2 {
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.products .top_product p {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.products .bottom_product ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.products .bottom_product ul li {
+  padding-right: 40px;
+}
+.products .bottom_product ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.products .bottom_product ul li a:hover {
+  color: #ff3f40;
+}
+.products .bottom_product .products_img {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products .bottom_product .products_img .products_item {
+  width: calc(100% / 4);
+}
+.products .bottom_product .products_img .products_item img {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

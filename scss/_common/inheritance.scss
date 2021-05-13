@@ -1,0 +1,17 @@
+%display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%butt {
+  font-size: $stsize;
+  font-family: $ffamily;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid $artcolor;
+  transition: 0.5s;
+}
+%hsize {
+  font-weight: bold;
+  text-transform: uppercase;
+}

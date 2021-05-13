@@ -1,0 +1,25 @@
+header {
+  @extend %display;
+
+  background-color: $bgcolor;
+  margin: 30px 0 110px;
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        padding: 40px 40px 30px;
+        transition: 0.6s;
+        a {
+          text-decoration: none;
+          color: $txtcolor;
+          font-family: $ffamily;
+          @include hsize($stsize);
+        }
+      }
+      li:hover {
+        background-color: $artcolor;
+      }
+    }
+  }
+}

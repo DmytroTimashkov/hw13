@@ -1,0 +1,13 @@
+@mixin button_color($bg-color, $font-color) {
+  background-color: $bg-color;
+  color: $font-color;
+  @extend %display;
+}
+@mixin butt($pd) {
+  padding: $pd;
+  @extend %butt;
+}
+@mixin hsize($fsize) {
+  font-size: $fsize;
+  @extend %hsize;
+}

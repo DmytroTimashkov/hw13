@@ -1,0 +1,33 @@
+.about_us {
+  padding-bottom: 110px;
+  .about_us_wrapper {
+    display: flex;
+    .about_left {
+      font-family: $ffamily;
+      padding-right: 100px;
+      width: 50%;
+      h1 {
+        @include hsize($hstsize);
+        padding-bottom: 25px;
+      }
+      p {
+        font-size: $stsize;
+        padding-bottom: 50px;
+      }
+      button {
+        @include button_color($artcolor, $txtcolor);
+        @include butt(20px 70px);
+      }
+      button:hover {
+        @include button_color($txtcolor, $artcolor);
+      }
+    }
+    .about_right {
+      width: 50%;
+      .video {
+        width: 100%;
+        height: 350px;
+      }
+    }
+  }
+}
