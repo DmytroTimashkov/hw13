@@ -3,7 +3,7 @@
   background-color: $txtcolor;
   font-family: $ffamily;
   .top_product {
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     h2 {
       @include hsize(45px);
       text-align: center;
@@ -13,6 +13,12 @@
       text-align: center;
       font-size: $stsize;
       padding-bottom: 50px;
+    }
+    .border {
+      width: 150px;
+      height: 3px;
+      background-color: $artcolor;
+      margin: 0 auto;
     }
   }
   .bottom_product {

@@ -124,3 +124,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+div,
+li,
+img,
+ul,
+ol,
+p {
+  box-sizing: border-box;
+}
